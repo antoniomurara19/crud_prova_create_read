@@ -1,0 +1,18 @@
+<table border="1">
+    <thead>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Nacionalidade</th>
+        <th>Idade</th>
+    </thead>
+    {{#each a}}
+    <tbody>
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.nome}}</td>
+            <td>{{this.nacionalidade}}</td>
+            <td>{{this.idade}}</td>
+        </tr>
+    </tbody>
+    {{/each}}
+</table>
